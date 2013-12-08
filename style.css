@@ -10,3 +10,13 @@ body,html{
 	width:100%;
 	height:100%;
 }
+.markerBlock ul{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.markerBlock li{
+	
+}
