@@ -10,9 +10,9 @@ var App = function(){
 }
 App.prototype.init = function(){
 //34.0659, -117.7896
-var latlng = new google.maps.LatLng(34.0659, -117.7896);
+var latlng = new google.maps.LatLng(33.93, -118.40);
 var myoptions = {
-    zoom: 10,
+    zoom: 9,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.TERRAIN,
     streetViewControl: false,
