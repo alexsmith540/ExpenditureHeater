@@ -122,7 +122,7 @@ App.prototype.makeHeatmap = function(colKeys,data,places,locations){
 	that.allheat = [];
 	var heatmap = new HeatCanvasOverlayView(that.map, {'step':0.3, 'degree':HeatCanvas.QUAD, 'opacity':0.8});
 	$.each(locations,function(i,x){
-		var block = $('<div class="markerblock">Expenditures for '+x.name+'<ul></ul></div>');
+		var block = $('<div class="markerblock">Expenditures for '+x.name+'<ul class="markerul"></ul></div>');
 		
 		/*var marker = new google.maps.Marker({
 	        map: that.map,
