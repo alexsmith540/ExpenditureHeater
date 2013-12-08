@@ -1,0 +1,29 @@
+{
+  "name": "hackfor",
+  "version": "0.0.0",
+  "authors": [
+    "Alex Smith <alexsmith_540@yahoo.com>"
+  ],
+  "description": "app for hackfor la 12/8/2013",
+  "main": "index.html",
+  "keywords": [
+    "javascripts"
+  ],
+  "license": "MIT",
+  "homepage": "http://atpsmith.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "d3": "~3.3.11",
+    "heatmap.js": "https://github.com/pa7/heatmap.js.git",
+    "leaflet-0.7.1.zip": "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.1.zip",
+    "heatcanvas": "https://github.com/sunng87/heatcanvas.git#~1.2.3"
+  }
+}
